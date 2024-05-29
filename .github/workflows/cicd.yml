@@ -24,4 +24,4 @@ jobs:
       - name: delete old container
         run: docker rm -f reactContainer
       - name: run docker container
-        run: docker run -d -p 4100:3000 --name reactcontainer muskan04yadav/react-redux
+        run: docker run -d -p 4100:80 --name reactcontainer muskan04yadav/react-redux
